@@ -19,4 +19,4 @@ env:
   MONGODB_PORT: "27017"
 
 secrets:
-  MONGODB_URI: 'mongodb://mongodb.mongodb.svc.cluster.local:27017/'
+  MONGODB_URI: 'mongodb://user:password123@mongodb-grade-submission-svc.mongodb.svc.cluster.local:27017/grades'
